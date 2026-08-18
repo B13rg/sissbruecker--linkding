@@ -1,5 +1,12 @@
 # Changelog
 
+## Fork Changes
+
+* Add endpoint for fetching Openapi schema from `api/schema` and `api/docs` in https://github.com/B13rg/sissbruecker--linkding/pull/2
+* Update docker image tags in https://github.com/B13rg/sissbruecker--linkding/pull/3
+
+# Changelog
+
 ## v1.46.1 (14/08/2026)
 
 ### What's Changed
