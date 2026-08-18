@@ -1,6 +1,6 @@
 [project]
 name = "linkding"
-version = "1.46.0"
+version = "1.46.2"
 description = "Self-hosted bookmark manager that is designed be to be minimal, fast, and easy to set up using Docker."
 readme = "README.md"
 requires-python = ">=3.13"
@@ -8,7 +8,7 @@ dependencies = [
     "beautifulsoup4>=4.14.3",
     "bleach>=6.4.0",
     "bleach-allowlist>=1.0.3",
-    "django>=6.0.6",
+    "django>=6.0.7",
     "djangorestframework>=3.16.1",
     "drf-spectacular>=0.27.0",
     "huey>=2.5.5",
