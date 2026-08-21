@@ -42,8 +42,6 @@ jobs:
           file: ./docker/default.Dockerfile
           platforms: linux/amd64,linux/arm64,linux/arm/v7
           tags: |
-            b13rg/linkding:latest
-            b13rg/linkding:${{ env.VERSION }}
             ghcr.io/b13rg/linkding:latest
             ghcr.io/b13rg/linkding:${{ env.VERSION }}
           target: linkding
@@ -58,8 +56,6 @@ jobs:
           file: ./docker/alpine.Dockerfile
           platforms: linux/amd64,linux/arm64,linux/arm/v7
           tags: |
-            b13rg/linkding:latest-alpine
-            b13rg/linkding:${{ env.VERSION }}-alpine
             ghcr.io/b13rg/linkding:latest-alpine
             ghcr.io/b13rg/linkding:${{ env.VERSION }}-alpine
           target: linkding
@@ -74,8 +70,6 @@ jobs:
           file: ./docker/default.Dockerfile
           platforms: linux/amd64,linux/arm64,linux/arm/v7
           tags: |
-            b13rg/linkding:latest-plus
-            b13rg/linkding:${{ env.VERSION }}-plus
             ghcr.io/b13rg/linkding:latest-plus
             ghcr.io/b13rg/linkding:${{ env.VERSION }}-plus
           target: linkding-plus
@@ -90,8 +84,6 @@ jobs:
           file: ./docker/alpine.Dockerfile
           platforms: linux/amd64,linux/arm64,linux/arm/v7
           tags: |
-            b13rg/linkding:latest-plus-alpine
-            b13rg/linkding:${{ env.VERSION }}-plus-alpine
             ghcr.io/b13rg/linkding:latest-plus-alpine
             ghcr.io/b13rg/linkding:${{ env.VERSION }}-plus-alpine
           target: linkding-plus
